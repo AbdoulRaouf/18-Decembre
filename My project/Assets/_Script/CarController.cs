@@ -11,8 +11,8 @@ public class CarController : MonoBehaviour
     [SerializeField] private float airDrag;
     [SerializeField] private float groudDrag;
     [SerializeField] private LayerMask groundLayer;
-    private float movementInput;
-    private float turnInput;
+    public float movementInput;
+    public float turnInput;
     private bool isGrounded;
 
     void Start()
